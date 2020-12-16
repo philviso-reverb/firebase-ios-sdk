@@ -110,6 +110,7 @@
   }
 
   XCTAssertEqualObjects(_metadata, _configExperiment.experimentMetadata);
+  XCTAssertEqualObjects(_payloadsData, _configExperiment.experimentPayloads);
 }
 
 - (void)testUpdateExperiment {
